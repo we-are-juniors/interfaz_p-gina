@@ -25,13 +25,13 @@
       left:50%;
       transform:translate(-50%,-50%);
       color:#00aaff;         /* azul */
-      font-size:2.8rem;
+      font-size:3.0rem;
       font-weight:700;
       text-align:center;
       z-index:9999;          /* importante: muy por encima */
       pointer-events:none;
       -webkit-text-stroke: 0.5px rgba(0,0,0,0.2);
-      text-shadow: 0 0 12px rgba(0,170,255,0.25);
+      text-shadow: 0 0 20px rgba(0, 170, 255, 0.837);
     }
   </style>
 </head>
@@ -66,7 +66,7 @@
         ctx.fillStyle = 'rgba(0,0,0,0.06)';
         ctx.fillRect(0,0,canvas.width,canvas.height);
 
-        ctx.fillStyle = '#00ff9f';
+        ctx.fillStyle = '#AF1A13';
         ctx.font = fontSize + 'px monospace';
 
         for (let i = 0; i < drops.length; i++) {
